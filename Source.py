@@ -15,7 +15,9 @@ def w_s_count(string):
 
 #Acess Token given from facebook app
 access_token=''
+# Instagram account ID of acconected to your access token
 account_id=''
+# Account username of your connected Instagram account 
 account=''
 
 #give json files
@@ -98,7 +100,7 @@ with open ('General Information of zamo_graphic.txt','w') as file:
     file.write('General Information of {}_{}.xlsx\n'.format(account,strftime('%y-%m-%d')))
 pass
 
-with opne('Insight of zamo_graphic.txt','w') as file:
+with open('Insight of zamo_graphic.txt','w') as file:
     file.write('Insight of {}_{}.xlsx'.format(account,strftime('%y-%m-%d')))
 pass
 
